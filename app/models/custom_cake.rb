@@ -1,0 +1,2 @@
+class CustomCake < ApplicationRecord
+end

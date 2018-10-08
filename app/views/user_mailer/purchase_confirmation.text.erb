@@ -1,0 +1,27 @@
+Confirmação de Encomenda
+
+Olá <%= @delivery.contact_first_name %>,
+
+Obrigado pela tua encomenda!
+
+Por favor confirma se os dados estão correctos
+
+
+		Nome
+		<%= @delivery.contact_first_name %>
+
+		Contacto telefónico
+		<%= @delivery.contact_telephone%>
+
+		Local de Entrega
+		<%= @delivery.address%>
+
+		Hora de Entrega
+		<%= @delivery.delivery_slot%>
+
+
+Se os dados não estiverem correctos, por favor entra em contacto connosco o mais cedo possível.
+
+Atentamente,
+
+Equipa Bonjour
