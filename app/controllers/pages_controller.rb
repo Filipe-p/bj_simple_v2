@@ -22,4 +22,4 @@ class PagesController < ApplicationController
   def design
     @custom_cake = CustomCake.new
   end
-end
+end 
