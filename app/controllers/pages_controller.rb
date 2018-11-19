@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!
 
   def home
-    render layout: "brevemente"
+
   end
 
   def about
@@ -13,6 +13,7 @@ class PagesController < ApplicationController
   end
 
   def home2
+
   end
 
   def gallery
